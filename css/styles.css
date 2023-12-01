@@ -286,3 +286,36 @@ input, textarea {
     height: 200px;
     margin-top: 50px;
 }
+
+/* Contact Container */
+
+#contact-container {
+    background: url(../images/reg-mobile-07.jpg) no-repeat;
+    height: 200px;
+    margin-top: 40px;
+}
+
+#contact-heading-box {
+    align-self: end;
+}
+
+#contact-text {
+    font-size: 13px;
+    line-height: 22px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#contact-address p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 22px;
+}
+ 
+#contact-address {
+    margin-bottom: 30px;
+}
+ 
+#contact-address h3 {
+    margin-bottom: 20px;
+}
