@@ -178,7 +178,7 @@ input, textarea {
 
 .room-services-items li {
     padding: 6px 0;
-    border-bottom: 1px solid #9a2018;
+    border-bottom: 1.5px solid #9a2018;
 }
 
 .room-services-items li:last-child {
