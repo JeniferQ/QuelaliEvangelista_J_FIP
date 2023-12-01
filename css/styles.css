@@ -201,3 +201,28 @@ input, textarea {
     margin-top: 12px;
     margin-left: 12px;
 }
+
+/* Navigation */
+
+#navigation {
+    padding: 30px 0 10px 0;
+    margin: 0;
+}
+ 
+#navigation ul {
+    list-style: none;
+}
+
+#navigation ul li {
+    margin-bottom: 10px;
+}
+ 
+#navigation ul li a {
+   color: inherit;
+   padding: 5px;
+   font-size: 14px;
+}
+ 
+#navigation ul li a.selected {
+    border-left: #9a2018 solid 8px;
+}
