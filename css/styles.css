@@ -322,6 +322,7 @@ input, textarea {
 
 /* Contact Form */
 
+
 #contact-form form {
     display: flex;
     flex-direction: column;
@@ -347,21 +348,51 @@ input, textarea {
     height: 220px;
     resize: none;
 }
- 
-#contact-form input[type="submit"] {
-    padding: 12px 28px;
+
+#submit input[type="submit"] {
+    padding: 12px 0;
     background: #9a2018;
     color: #fff;
+    font: inherit;
+    font-style: italic;
     border: 2px solid #d6d6d6;
-    transition: all 200ms ease-in;
     width: 175px;
+    margin: 0;
     align-self: flex-end;
 }
  
-#contact-form input[type="submit"]:hover {
-    background-color: rgb(196, 28, 28);
+#submit input[type="submit"]:hover {
     border-radius: 0;
     cursor: pointer;
+}
+
+#terms {
+    align-self: center;
+}
+
+#terms input[type="checkbox"] {
+    float: left;
+    margin-top: 5px;
+}
+
+#terms input[type="checkbox"]:checked + span::after {
+    content: "\2713";
+    font-size: 16spx;
+    padding-left: 5px;
+    color: rgb(22, 149, 102);
+}
+
+#terms input[type="checkbox"]:checked + span {
+    color: rgb(22, 149, 102);
+}
+
+#terms-checkbox {
+    accent-color: rgb(22, 149, 102);
+}
+
+#terms span {
+    font-size: 12px;
+    margin-left: 5px;
 }
 
 /* Footer */
