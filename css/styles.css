@@ -1,0 +1,30 @@
+/* Main Styles */
+
+body {
+    color: #626262;
+    font-family: 'Sanchez', Georgia, 'Times New Roman', serif;
+}
+ 
+a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+input, textarea {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+#phone-outline {
+    outline: 20px solid black;
+    max-width: 412px;
+    margin: 20px auto;
+    border-radius: 10px;
+} 
+
+.red-line {
+    margin-top: 20px;
+    border-top: solid 3px #C54242;
+    padding-top: 20px;
+}
