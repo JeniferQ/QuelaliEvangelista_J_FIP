@@ -87,7 +87,7 @@ input, textarea {
 /* Hero Image - Rooms */
 
 #hero-rooms {
-    background: url(../images/hero-mobile-01.jpg) no-repeat;
+    background: url(../images/hero-room.jpg) no-repeat;
     height: 220px;
 }
  
@@ -138,4 +138,66 @@ input, textarea {
     font-size: 13px;
     line-height: 22px;
     margin-bottom: 20px;
+}
+
+/* Our Room Services Container */
+
+#room-services-container {
+    background-color: #f4f4f4;
+    padding: 30px 0 40px 15px;
+    margin-top: 30px;
+}
+ 
+#room-services-container h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+ 
+#room-services-container h2 span {
+    color: #C54242;
+    font-size: 12px;
+}
+ 
+.column-span-full.room-services-items {
+    margin: 8px 0;
+}
+ 
+.room-services-items h3 {
+    background: #e8e7e7;
+    padding: 12px;
+    padding-left: 30px;
+    font-size: 14px;
+    font-weight: 100;
+}
+ 
+.room-services-items ul {
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+.room-services-items li {
+    padding: 6px 0;
+    border-bottom: 1px solid #9a2018;
+}
+
+.room-services-items li:last-child {
+    border: 0;
+}  
+
+.room-services-items {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.room-services-items a {
+    color: inherit;
+    font-size: 12px;
+}
+
+.fa-play {
+    float: left;
+    color: #b8b8b8;
+    margin-top: 12px;
+    margin-left: 12px;
 }
