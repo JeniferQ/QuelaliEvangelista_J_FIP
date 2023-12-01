@@ -226,3 +226,63 @@ input, textarea {
 #page-navigation ul li a.selected {
     border-left: #9a2018 solid 8px;
 }
+
+/* Content */
+
+#content-container {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.heading-box {
+    align-self: end;
+}
+
+.content-text p {
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.content-text a {
+    color: #626262;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+/* Rooms Pictures */
+
+#chateau-container {
+    background: url(../images/room-chateaus.jpg) no-repeat;
+    height: 200px;
+}
+
+#villa-container {
+    background: url(../images/room-villas.jpg) no-repeat;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#master-container {
+    background: url(../images/room-masters.jpg) no-repeat;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#chalet-container {
+    background: url(../images/room-chalets.jpg) no-repeat;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#junior-container {
+    background: url(../images/room-juniors.jpg) no-repeat;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#exotic-container {
+    background: url(../images/room-exotics.jpg) no-repeat;
+    height: 200px;
+    margin-top: 50px;
+}
