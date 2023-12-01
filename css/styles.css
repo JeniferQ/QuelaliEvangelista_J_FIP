@@ -28,3 +28,58 @@ input, textarea {
     border-top: solid 3px #C54242;
     padding-top: 20px;
 }
+
+.hidden {
+    display: none;
+}
+
+/* Header */
+
+#main-navigation label img {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all .5s ease;
+    margin-bottom: 20px; 
+} 
+ 
+#main-navigation input, #burger-container {
+    display: none;
+}
+
+#main-navigation input:checked ~ #burger-container {
+    display: block;
+}
+ 
+#main-navigation input:checked ~ label img {
+    transform: rotate(90deg);
+}
+ 
+#main-navigation ul {
+    list-style: none;
+}
+ 
+#main-navigation ul li a {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    color: inherit;
+}
+ 
+#main-navigation ul li {
+    border-bottom: 1px solid #efefef;
+}
+ 
+#main-navigation ul li:first-child {
+    border-top: 1px solid #efefef;
+}
+ 
+#main-navigation ul li:last-child {
+    margin-bottom: 10px;
+}
+
+#logo {
+    margin-bottom: 20px;
+    max-width: 380px;
+}
