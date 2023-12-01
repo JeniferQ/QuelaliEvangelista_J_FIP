@@ -364,3 +364,37 @@ input, textarea {
     cursor: pointer;
 }
 
+/* Footer */
+
+#footer {
+    background-image: url(../images/footer.jpg);
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 40px;
+    padding-bottom: 80px;
+}
+ 
+#footer h3 {
+    margin-top: 30px;
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+ 
+#footer-price .red-line {
+    margin-top: 0px;
+}
+ 
+#footer-info h3 {
+    font-size: 23px;
+}
+ 
+#footer-info p {
+    margin-bottom: 20px;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+#footer-price p {
+    font-size: 10px;
+}
