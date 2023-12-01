@@ -83,3 +83,33 @@ input, textarea {
     margin-bottom: 20px;
     max-width: 380px;
 }
+
+/* Hero Image - Rooms */
+
+#hero-rooms {
+    background: url(../images/hero-mobile-01.jpg) no-repeat;
+    height: 220px;
+}
+ 
+/* Book Now Button */
+
+.book-now {
+    background-color: #9a2018;
+    color: #fff;
+    font-size: 18px;
+    transition: background-color 500ms linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    transition:all 0.3s ease;
+    cursor: pointer;
+}
+ 
+.book-now:hover {
+    background-color: rgb(196, 28, 28);
+}
+ 
+#book-now-button {
+    height: 65px;
+}
