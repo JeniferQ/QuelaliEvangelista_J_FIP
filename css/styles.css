@@ -429,3 +429,32 @@ input, textarea {
 #footer-price p {
     font-size: 10px;
 }
+
+/* Dining Page */
+
+#hero-dining {
+    background: url(../images/hero-dining.jpg) no-repeat;
+    height: 220px;
+}
+
+/* Dining Introduction Text */
+ 
+#dining-summary p {
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+#dining-summary h2 {
+    font-size: 14px;
+    margin: 15px auto;
+    font-weight: 200;
+}
+
+/* Gourmet Dining Image */
+
+.gourmet-dining-image {
+    float: left;
+    margin-right: 20px;
+    margin-top: 15px;
+}
