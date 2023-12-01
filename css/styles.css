@@ -113,3 +113,29 @@ input, textarea {
 #book-now-button {
     height: 65px;
 }
+
+/* Heading Box */
+ 
+#hero-heading-box {
+    align-self: end;
+}
+ 
+.heading-h2 {
+    background: rgb(255, 255, 255);
+    padding: 15px 0 0 15px;
+    font-size: 16px;
+    font-weight: 200;
+}
+ 
+.heading-h2 span {
+    color: #C54242;
+    font-size: 12px;
+}
+
+/* Rooms Introduction Text */
+ 
+#rooms-summary p {
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
