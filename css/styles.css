@@ -290,7 +290,7 @@ input, textarea {
 /* Contact Container */
 
 #contact-container {
-    background: url(../images/reg-mobile-07.jpg) no-repeat;
+    background: url(../images/contact.jpg) no-repeat;
     height: 200px;
     margin-top: 40px;
 }
@@ -319,3 +319,48 @@ input, textarea {
 #contact-address h3 {
     margin-bottom: 20px;
 }
+
+/* Contact Form */
+
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+ 
+#contact-form input, textarea {
+    padding: 15px;
+    border: 2px solid #d6d6d6;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font: inherit;
+    width: auto;
+    font-size: 16px;
+}
+
+#contact-form input:focus, textarea:focus {
+    background: #d6d6d6;
+    outline: none;
+}
+ 
+#contact-form textarea {
+    height: 220px;
+    resize: none;
+}
+ 
+#contact-form input[type="submit"] {
+    padding: 12px 28px;
+    background: #9a2018;
+    color: #fff;
+    border: 2px solid #d6d6d6;
+    transition: all 200ms ease-in;
+    width: 175px;
+    align-self: flex-end;
+}
+ 
+#contact-form input[type="submit"]:hover {
+    background-color: rgb(196, 28, 28);
+    border-radius: 0;
+    cursor: pointer;
+}
+
