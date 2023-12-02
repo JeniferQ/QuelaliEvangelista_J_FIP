@@ -553,3 +553,22 @@ input, textarea {
     margin-top: 12px;
     margin-left: 12px;
 }
+
+/* Dining Pictures */
+
+#chef-container {
+    background: url(../images/dining-chef.jpg) no-repeat;
+    height: 200px;
+}
+
+#awards-container {
+    background: url(../images/dining-awards.jpg) no-repeat;
+    height: 200px;
+    margin-top: 30px;
+}
+
+/* Misc */
+
+#italic {
+    font-style: italic;
+}
