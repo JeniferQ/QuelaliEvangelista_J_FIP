@@ -492,3 +492,64 @@ input, textarea {
     color: #9a2018;
     float: left;
 }
+
+/* Menu Container */
+
+#menu-container {
+    background-color: #f4f4f4;
+    padding: 30px 0 40px 15px;
+}
+ 
+#menu-container h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+ 
+#menu-container h2 span {
+    color: #C54242;
+    font-size: 12px;
+}
+ 
+.column-span-full.menu-items {
+    margin: 8px 0;
+}
+ 
+.menu-items h3 {
+    background: #e8e7e7;
+    padding: 12px;
+    padding-left: 30px;
+    font-size: 14px;
+    font-weight: 100;
+}
+ 
+.menu-items ul {
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+.menu-items li {
+    padding: 6px 0;
+    border-bottom: 1px solid #9a2018;
+}
+
+.menu-items li:last-child {
+    border: 0;
+}   
+
+.menu-items {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.menu-items a {
+    color: inherit;
+    font-size: 12px;
+}
+
+.fa-play {
+    float: left;
+    color: #b8b8b8;
+    margin-top: 12px;
+    margin-left: 12px;
+}
