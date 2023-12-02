@@ -458,3 +458,37 @@ input, textarea {
     margin-right: 20px;
     margin-top: 15px;
 }
+
+
+/* Hours Container */
+
+#hours{
+    background-color: #efefef;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+
+#hours p {
+    margin-left: 48px;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+#phone {
+    margin-top: 15px;
+}
+
+.fa-clock {
+    margin-bottom: 20px;
+    font-size: 38px;
+    color: #9a2018;
+    float: left;
+}
+ 
+.fa-phone-volume {
+    margin-top: 20px;
+    font-size: 38px;
+    color: #9a2018;
+    float: left;
+}
