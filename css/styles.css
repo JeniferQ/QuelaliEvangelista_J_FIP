@@ -378,7 +378,7 @@ input, textarea {
 }
  
 #submit input[type="submit"]:hover {
-    border-radius: 0;
+    animation: button 2s ease-in-out infinite;
     cursor: pointer;
 }
 
@@ -409,6 +409,15 @@ input, textarea {
 #terms span {
     font-size: 12px;
     margin-left: 5px;
+}
+
+/* CSS Animation */
+
+@keyframes button {
+    0% {background-color: #9a2018;}
+    50% {background-color: rgb(216, 0, 0);
+        border: 2px solid #bcbcbc;}
+    100% {background-color: #9a2018;}
 }
 
 /* Footer */
