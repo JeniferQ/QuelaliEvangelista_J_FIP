@@ -134,13 +134,17 @@ input, textarea {
 
 /* Rooms Introduction Text */
  
+#rooms-summary {
+    margin-bottom: 30px;
+}
+
 #rooms-summary p {
     font-size: 13px;
     line-height: 22px;
     margin-bottom: 20px;
 }
 
-/* Our Room Services Container */
+/* Functional Non Header Menu */
 
 .column-span-full.room-services-items {
     margin: 8px 0;
@@ -149,7 +153,7 @@ input, textarea {
 #room-services-container {
     background-color: #f4f4f4;
     padding: 30px 0 40px 15px;
-    margin-top: 30px;
+    margin-top: 0;
 }
  
 #room-services-container h2 {
@@ -215,7 +219,7 @@ input, textarea {
 /* Navigation */
 
 #page-navigation {
-    padding: 30px 0 10px 0;
+    padding: 30px 0 20px 0;
     margin: 0;
 }
  
@@ -416,7 +420,7 @@ input, textarea {
     padding-bottom: 80px;
 }
  
-#footer h3 {
+#footer h2 {
     margin-top: 30px;
     font-size: 28px;
     margin-bottom: 16px;
@@ -455,7 +459,7 @@ input, textarea {
     margin-bottom: 20px;
 }
 
-#dining-summary h2 {
+#dining-summary h3 {
     font-size: 14px;
     margin: 15px auto;
     font-weight: 200;
@@ -501,67 +505,6 @@ input, textarea {
     font-size: 38px;
     color: #9a2018;
     float: left;
-}
-
-/* Menu Container */
-
-#menu-container {
-    background-color: #f4f4f4;
-    padding: 30px 0 40px 15px;
-}
- 
-#menu-container h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    font-weight: 200;
-}
- 
-#menu-container h2 span {
-    color: #C54242;
-    font-size: 12px;
-}
- 
-.column-span-full.menu-items {
-    margin: 8px 0;
-}
- 
-.menu-items h3 {
-    background: #e8e7e7;
-    padding: 12px;
-    padding-left: 30px;
-    font-size: 14px;
-    font-weight: 100;
-}
- 
-.menu-items ul {
-    margin-top: 10px;
-    list-style-type: none;
-}
-
-.menu-items li {
-    padding: 6px 0;
-    border-bottom: 1px solid #9a2018;
-}
-
-.menu-items li:last-child {
-    border: 0;
-}   
-
-.menu-items {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.menu-items a {
-    color: inherit;
-    font-size: 12px;
-}
-
-.fa-play {
-    float: left;
-    color: #b8b8b8;
-    margin-top: 12px;
-    margin-left: 12px;
 }
 
 /* Dining Pictures */
