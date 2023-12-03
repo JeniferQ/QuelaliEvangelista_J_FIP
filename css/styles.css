@@ -146,28 +146,28 @@ input, textarea {
 
 /* Functional Non Header Menu */
 
-.column-span-full.room-services-items {
+.column-span-full.content-menu {
     margin: 8px 0;
 }
 
-#room-services-container {
+#content-menu-container {
     background-color: #f4f4f4;
     padding: 30px 0 40px 15px;
     margin-top: 0;
 }
  
-#room-services-container h2 {
+#content-menu-container h2 {
     font-size: 18px;
     margin-bottom: 10px;
     font-weight: 200;
 }
  
-#room-services-container h2 span {
+#content-menu-container h2 span {
     color: #C54242;
     font-size: 12px;
 }
  
-#room-services-container label img {
+#content-menu-container label img {
     width: 12px;
     cursor: pointer;
     transition: all .2s ease;
@@ -175,19 +175,19 @@ input, textarea {
     opacity: .4;
 } 
 
-#room-services-container input {
+#content-menu-container input {
     display: none;
 }
 
-#room-services-container input:checked ~ .service-list {
+#content-menu-container input:checked ~ .service-list {
     display: block;
 }
  
-#room-services-container input:checked ~ label img {
+#content-menu-container input:checked ~ label img {
     transform: rotate(90deg);
 }
 
-#room-services-container label {
+#content-menu-container label {
     background: #e8e7e7;
     padding: 12px;
     padding-left: 15px;
@@ -196,23 +196,23 @@ input, textarea {
     display: flex;
 }
 
-.service-list {
+.menu-list {
     display: none;
 }
 
-.service-list ul {
+.menu-list ul {
     margin-top: 10px;
     list-style-type: none;
 }
 
-.service-list ul li {
+.menu-list ul li {
     padding: 8px 0;
     border-bottom: 1.5px solid #9a2018;
     color: inherit;
     font-size: 12px;
 }
 
-.service-list li:last-child {
+.menu-list li:last-child {
     border: 0;
 }
 
