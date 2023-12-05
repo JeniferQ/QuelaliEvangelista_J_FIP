@@ -83,13 +83,6 @@ input, textarea {
     margin-bottom: 20px;
     max-width: 380px;
 }
-
-/* Hero Image - Rooms */
-
-#hero-rooms {
-    background: url(../images/hero-room.jpg) no-repeat;
-    height: 220px;
-}
  
 /* Book Now Button */
 
@@ -132,411 +125,6 @@ input, textarea {
     font-size: 12px;
 }
 
-/* Rooms Introduction Text */
- 
-#rooms-summary {
-    margin-bottom: 30px;
-}
-
-#rooms-summary p {
-    font-size: 13px;
-    line-height: 22px;
-    margin-bottom: 20px;
-}
-
-/* Functional Non Header Menu */
-
-.column-span-full.content-menu {
-    margin: 8px 0;
-}
-
-#content-menu-container {
-    background-color: #f4f4f4;
-    padding: 30px 0 40px 15px;
-    margin-top: 0;
-}
- 
-#content-menu-container h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    font-weight: 200;
-}
- 
-#content-menu-container h2 span {
-    color: #C54242;
-    font-size: 12px;
-}
- 
-#content-menu-container label img {
-    width: 12px;
-    cursor: pointer;
-    transition: all .2s ease;
-    margin-right: 5px;
-    opacity: .4;
-} 
-
-#content-menu-container input {
-    display: none;
-}
-
-#content-menu-container input:checked ~ .menu-list {
-    display: block;
-}
- 
-#content-menu-container input:checked ~ label img {
-    transform: rotate(90deg);
-}
-
-#content-menu-container label {
-    background: #e8e7e7;
-    padding: 12px;
-    padding-left: 15px;
-    font-size: 14px;
-    font-weight: 100;
-    display: flex;
-}
-
-.menu-list {
-    display: none;
-}
-
-.menu-list ul {
-    margin-top: 10px;
-    list-style-type: none;
-}
-
-.menu-list ul li {
-    padding: 8px 0;
-    border-bottom: 1.5px solid #9a2018;
-    color: inherit;
-    font-size: 12px;
-}
-
-.menu-list li:last-child {
-    border: 0;
-}
-
-/* Navigation */
-
-#page-navigation {
-    padding: 30px 0 20px 0;
-    margin: 0;
-}
- 
-#page-navigation ul {
-    list-style: none;
-}
-
-#page-navigation ul li {
-    margin-bottom: 10px;
-}
- 
-#page-navigation ul li a {
-   color: inherit;
-   padding: 5px;
-   font-size: 14px;
-}
- 
-#page-navigation ul li a.selected {
-    border-left: #9a2018 solid 8px;
-}
-
-/* Content */
-
-#content-container {
-    margin-top: 0;
-    padding-top: 0;
-    margin-bottom: 40px;
-}
-
-.heading-box {
-    align-self: end;
-}
-
-.content-text p {
-    font-size: 13px;
-    line-height: 22px;
-    margin-bottom: 20px;
-}
-
-.content-text a {
-    color: #626262;
-    font-size: 13px;
-}
-
-/* Rooms Pictures */
-
-#chateau-container {
-    background: url(../images/room-chateaus.jpg) no-repeat;
-    height: 200px;
-}
-
-#villa-container {
-    background: url(../images/room-villas.jpg) no-repeat;
-    height: 200px;
-    margin-top: 50px;
-}
-
-#master-container {
-    background: url(../images/room-masters.jpg) no-repeat;
-    height: 200px;
-    margin-top: 50px;
-}
-
-#chalet-container {
-    background: url(../images/room-chalets.jpg) no-repeat;
-    height: 200px;
-    margin-top: 50px;
-}
-
-#junior-container {
-    background: url(../images/room-juniors.jpg) no-repeat;
-    height: 200px;
-    margin-top: 50px;
-}
-
-#exotic-container {
-    background: url(../images/room-exotics.jpg) no-repeat;
-    height: 200px;
-    margin-top: 50px;
-}
-
-/* Contact Container */
-
-#contact-container {
-    background: url(../images/contact.jpg) no-repeat;
-    height: 200px;
-}
-
-#contact-heading-box {
-    align-self: end;
-}
-
-#contact-text {
-    font-size: 13px;
-    line-height: 22px;
-    margin-top: 15px;
-    margin-bottom: 25px;
-}
-
-#contact-address p {
-    margin-bottom: 20px;
-    font-size: 14px;
-    line-height: 22px;
-}
- 
-#contact-address {
-    margin-bottom: 30px;
-}
- 
-#contact-address h3 {
-    margin-bottom: 20px;
-    font-size: 18px;
-    font-weight: 200;
-}
-
-/* Contact Form */
-
-
-#contact-form form {
-    display: flex;
-    flex-direction: column;
-}
- 
-#contact-form input, textarea {
-    padding: 15px;
-    border: 2px solid #d6d6d6;
-    background-color: #f7f7f7;
-    border-radius: 5px;
-    margin-bottom: 30px;
-    font: inherit;
-    width: auto;
-    font-size: 16px;
-}
-
-#contact-form input:focus, textarea:focus {
-    background: #d6d6d6;
-    outline: none;
-}
- 
-#contact-form textarea {
-    height: 220px;
-    resize: none;
-}
-
-#submit input[type="submit"] {
-    padding: 12px 0;
-    background: #9a2018;
-    color: #fff;
-    font: inherit;
-    font-style: italic;
-    border: 2px solid #d6d6d6;
-    width: 175px;
-    margin: 0;
-    align-self: flex-end;
-}
- 
-#submit input[type="submit"]:hover {
-    animation: button 2s linear infinite;
-    cursor: pointer;
-}
-
-#terms {
-    align-self: center;
-}
-
-#terms input[type="checkbox"] {
-    float: left;
-    margin-top: 5px;
-}
-
-#terms input[type="checkbox"]:checked + span::after {
-    content: "\2713";
-    font-size: 12px;
-    padding-left: 5px;
-    color: rgb(22, 149, 102);
-}
-
-#terms input[type="checkbox"]:checked + span {
-    color: rgb(22, 149, 102);
-}
-
-#terms-checkbox {
-    accent-color: rgb(22, 149, 102);
-}
-
-#terms span {
-    font-size: 12px;
-    margin-left: 5px;
-}
-
-/* CSS Animation */
-
-@keyframes button {
-    0% {background-color: #9a2018;}
-    50% {background-color: rgb(216, 0, 0);
-        border: 2px solid #bcbcbc;}
-    100% {background-color: #9a2018;}
-}
-
-/* Footer */
-
-#footer {
-    background-image: url(../images/footer.jpg);
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 12px;
-    margin-top: 40px;
-    padding-bottom: 80px;
-}
- 
-#footer h2 {
-    margin-top: 30px;
-    font-size: 28px;
-    font-weight: 200;
-    margin-bottom: 16px;
-}
- 
-#footer-price .red-line {
-    margin-top: 0px;
-}
- 
-#footer-info h3 {
-    font-size: 23px;
-}
- 
-#footer-info p {
-    margin-bottom: 20px;
-    line-height: 18px;
-    font-size: 12px;
-}
-
-#footer-price p {
-    font-size: 10px;
-}
-
-/* Dining Page */
-
-#hero-dining {
-    background: url(../images/hero-dining.jpg) no-repeat;
-    height: 220px;
-}
-
-/* Dining Introduction Text */
- 
-#dining-summary p {
-    font-size: 13px;
-    line-height: 22px;
-    margin-bottom: 20px;
-}
-
-#dining-summary h3 {
-    font-size: 14px;
-    margin: 15px auto;
-    font-weight: 200;
-}
-
-/* Gourmet Dining Image */
-
-.gourmet-dining-image {
-    float: left;
-    margin-right: 20px;
-    margin-top: 15px;
-}
-
-
-/* Hours Container */
-
-#hours{
-    background-color: #efefef;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-top: 20px;
-}
-
-#hours p {
-    margin-left: 48px;
-    font-size: 10px;
-    line-height: 15px;
-}
-
-#phone {
-    margin-top: 15px;
-}
-
-.fa-clock {
-    margin-bottom: 20px;
-    font-size: 38px;
-    color: #9a2018;
-    float: left;
-}
- 
-.fa-phone-volume {
-    margin-top: 20px;
-    font-size: 38px;
-    color: #9a2018;
-    float: left;
-}
-
-/* Dining Pictures */
-
-#chef-container {
-    background: url(../images/dining-chef.jpg) no-repeat;
-    height: 200px;
-}
-
-#awards-container {
-    background: url(../images/dining-awards.jpg) no-repeat;
-    height: 200px;
-    margin-top: 30px;
-}
-
-/* Misc */
-
-#italic {
-    font-style: italic;
-}
-
 /* Home Page */
 
 #hero-index {
@@ -544,7 +132,7 @@ input, textarea {
     height: 220px;
 }
 
-/* Home Introduction Text */
+/* Home Introduction */
 
 #home-summary {
     margin-bottom: 20px;
@@ -563,7 +151,6 @@ input, textarea {
 }
 
 /* Info Container */
-
 
 #info {
     padding-top: 30px;
@@ -744,4 +331,413 @@ input, textarea {
 .faq-items a {
     color: inherit;
     font-size: 12px;
+}
+
+/* Rooms Page */
+
+#hero-rooms {
+    background: url(../images/hero-room.jpg) no-repeat;
+    height: 220px;
+}
+
+/* Rooms Introduction */
+ 
+#rooms-summary {
+    margin-bottom: 30px;
+}
+
+#rooms-summary p {
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+/* Functional Non Header Menu */
+
+.column-span-full.content-menu {
+    margin: 8px 0;
+}
+
+#content-menu-container {
+    background-color: #f4f4f4;
+    padding: 30px 0 40px 15px;
+    margin-top: 0;
+}
+ 
+#content-menu-container h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+ 
+#content-menu-container h2 span {
+    color: #C54242;
+    font-size: 12px;
+}
+ 
+#content-menu-container label img {
+    width: 12px;
+    cursor: pointer;
+    transition: all .2s ease;
+    margin-right: 5px;
+    opacity: .4;
+} 
+
+#content-menu-container input {
+    display: none;
+}
+
+#content-menu-container input:checked ~ .menu-list {
+    display: block;
+}
+ 
+#content-menu-container input:checked ~ label img {
+    transform: rotate(90deg);
+}
+
+#content-menu-container label {
+    background: #e8e7e7;
+    padding: 12px;
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: 100;
+    display: flex;
+}
+
+.menu-list {
+    display: none;
+}
+
+.menu-list ul {
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+.menu-list ul li {
+    padding: 8px 0;
+    border-bottom: 1.5px solid #9a2018;
+    color: inherit;
+    font-size: 12px;
+}
+
+.menu-list li:last-child {
+    border: 0;
+}
+
+/* Navigation */
+
+#page-navigation {
+    padding: 30px 0 20px 0;
+    margin: 0;
+}
+ 
+#page-navigation ul {
+    list-style: none;
+}
+
+#page-navigation ul li {
+    margin-bottom: 10px;
+}
+ 
+#page-navigation ul li a {
+   color: inherit;
+   padding: 5px;
+   font-size: 14px;
+}
+ 
+#page-navigation ul li a.selected {
+    border-left: #9a2018 solid 8px;
+}
+
+/* Content */
+
+#content-container {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 40px;
+}
+
+.heading-box {
+    align-self: end;
+}
+
+.content-text p {
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.content-text a {
+    color: #626262;
+    font-size: 13px;
+}
+
+/* Rooms Pictures */
+
+#chateau-container {
+    background: url(../images/room-chateaus.jpg) no-repeat;
+    height: 200px;
+}
+
+#villa-container {
+    background: url(../images/room-villas.jpg) no-repeat;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#master-container {
+    background: url(../images/room-masters.jpg) no-repeat;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#chalet-container {
+    background: url(../images/room-chalets.jpg) no-repeat;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#junior-container {
+    background: url(../images/room-juniors.jpg) no-repeat;
+    height: 200px;
+    margin-top: 50px;
+}
+
+#exotic-container {
+    background: url(../images/room-exotics.jpg) no-repeat;
+    height: 200px;
+    margin-top: 50px;
+}
+
+/* Dining Page */
+
+#hero-dining {
+    background: url(../images/hero-dining.jpg) no-repeat;
+    height: 220px;
+}
+
+/* Dining Introduction */
+ 
+#dining-summary p {
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+#dining-summary h3 {
+    font-size: 14px;
+    margin: 15px auto;
+    font-weight: 200;
+}
+
+.gourmet-dining-image {
+    float: left;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+/* Hours Container */
+
+#hours{
+    background-color: #efefef;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+
+#hours p {
+    margin-left: 48px;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+#phone {
+    margin-top: 15px;
+}
+
+.fa-clock {
+    margin-bottom: 20px;
+    font-size: 38px;
+    color: #9a2018;
+    float: left;
+}
+ 
+.fa-phone-volume {
+    margin-top: 20px;
+    font-size: 38px;
+    color: #9a2018;
+    float: left;
+}
+
+/* Dining Pictures */
+
+#chef-container {
+    background: url(../images/dining-chef.jpg) no-repeat;
+    height: 200px;
+}
+
+#awards-container {
+    background: url(../images/dining-awards.jpg) no-repeat;
+    height: 200px;
+    margin-top: 30px;
+}
+
+/* Misc */
+
+#italic {
+    font-style: italic;
+}
+
+/* Contact Container */
+
+#contact-container {
+    background: url(../images/contact.jpg) no-repeat;
+    height: 200px;
+}
+
+#contact-heading-box {
+    align-self: end;
+}
+
+#contact-text {
+    font-size: 13px;
+    line-height: 22px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#contact-address p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 22px;
+}
+ 
+#contact-address {
+    margin-bottom: 30px;
+}
+ 
+#contact-address h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+/* Contact Form */
+
+
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+ 
+#contact-form input, textarea {
+    padding: 15px;
+    border: 2px solid #d6d6d6;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font: inherit;
+    width: auto;
+    font-size: 16px;
+}
+
+#contact-form input:focus, textarea:focus {
+    background: #d6d6d6;
+    outline: none;
+}
+ 
+#contact-form textarea {
+    height: 220px;
+    resize: none;
+}
+
+#submit input[type="submit"] {
+    padding: 12px 0;
+    background: #9a2018;
+    color: #fff;
+    font: inherit;
+    font-style: italic;
+    border: 2px solid #d6d6d6;
+    width: 175px;
+    margin: 0;
+    align-self: flex-end;
+}
+ 
+#submit input[type="submit"]:hover {
+    animation: button 2s linear infinite;
+    cursor: pointer;
+}
+
+#terms {
+    align-self: center;
+}
+
+#terms input[type="checkbox"] {
+    float: left;
+    margin-top: 5px;
+}
+
+#terms input[type="checkbox"]:checked + span::after {
+    content: "\2713";
+    font-size: 12px;
+    padding-left: 5px;
+    color: rgb(22, 149, 102);
+}
+
+#terms input[type="checkbox"]:checked + span {
+    color: rgb(22, 149, 102);
+}
+
+#terms-checkbox {
+    accent-color: rgb(22, 149, 102);
+}
+
+#terms span {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+/* CSS Animation */
+
+@keyframes button {
+    0% {background-color: #9a2018;}
+    50% {background-color: rgb(216, 0, 0);
+        border: 2px solid #bcbcbc;}
+    100% {background-color: #9a2018;}
+}
+
+/* Footer */
+
+#footer {
+    background-image: url(../images/footer.jpg);
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 40px;
+    padding-bottom: 80px;
+}
+ 
+#footer h2 {
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: 200;
+    margin-bottom: 16px;
+}
+ 
+#footer-price .red-line {
+    margin-top: 0px;
+}
+ 
+#footer-info h3 {
+    font-size: 23px;
+}
+ 
+#footer-info p {
+    margin-bottom: 15px;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+#footer-price p {
+    font-size: 10px;
 }
