@@ -536,3 +536,212 @@ input, textarea {
 #italic {
     font-style: italic;
 }
+
+/* Home Page */
+
+#hero-index {
+    background: url(../images/hero-home.jpg) no-repeat;
+    height: 220px;
+}
+
+/* Home Introduction Text */
+
+#home-summary {
+    margin-bottom: 20px;
+}
+
+#home-summary p {
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
+#info {
+    background-color: #efefef;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* Info Container */
+
+
+#info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+
+#info p {
+    margin-left: 48px;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+#location {
+    margin-top: 15px;
+}
+
+.fa-mobile-alt {
+    margin-bottom: 20px;
+    font-size: 45px;
+    color: #9a2018;
+    float: left;
+}
+ 
+.fa-map-marker-alt {
+    margin-top: 15px;
+    font-size: 45px;
+    color: #9a2018;
+    float: left;
+}
+
+/* Why Choose Us Container */
+
+.why-choose-us {
+    margin-bottom: 40px;
+}
+
+#why-choose-us-container {
+    background: url(../images/home-choose-us.jpg) no-repeat;
+    height: 200px;
+}
+
+.hot-tub-image {
+    float: left;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+ 
+#why-choose-us-summary p {
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+#why-choose-us-summary h3 {
+    font-size: 14px;
+    margin: 15px auto;
+    font-weight: 200;
+}
+
+#why-choose-us-summary a {
+    color: #626262;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+/* Why Choose Us Navigation */
+
+#why-choose-us-navigation {
+    background-color: #C54242;
+    padding: 10px;
+    margin-top: 30px;
+}
+ 
+#why-choose-us-navigation ol {
+    list-style-type: none;
+    padding: 0;
+}
+ 
+#why-choose-us-navigation li {
+    display: inline;
+}
+ 
+#why-choose-us-navigation a {
+    padding: 5px;
+    color: white;
+}
+
+/* About Container */
+
+.about-us {
+    margin-bottom: 30px;
+}
+
+.about-us span {
+    color: #9a2018;
+}
+
+#about-container {
+    background: url(../images/home-about.jpg) no-repeat;
+    height: 200px;
+}
+
+#about-container p {
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+/* FAQ */
+
+.column-span-full#faq-menu {
+    margin: 8px 0;
+}
+
+#faq-container {
+    background-color: #f4f4f4;
+    padding: 30px 0 40px 15px;
+    margin-top: 0;
+}
+
+#faq-container h2 {
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: 200;
+}
+ 
+#faq-container h2 span {
+    color: #C54242;
+    font-size: 12px;
+}
+ 
+.column-span-full.faq-items {
+    margin-bottom: 0;
+    padding-right: 0;
+}
+
+.faq-items:first-child {
+    margin-top: 10px;
+}
+ 
+.faq-items h3 {
+    background: #e2e2e2;
+    padding: 12px;
+    padding-left: 30px;
+    font-size: 14px;
+    font-weight: 100;
+}
+ 
+.faq-items ul {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.faq-items li {
+    padding: 8px 0;
+    font-size: 12px;
+    border-bottom: 1.5px solid #9a2018;
+}
+
+.faq-items li:last-child {
+    border: 0;
+}   
+
+.fa-play {
+    float: left;
+    color: #b8b8b8;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.faq-items {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.faq-items a {
+    color: inherit;
+    font-size: 12px;
+}
