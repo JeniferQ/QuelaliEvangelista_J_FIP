@@ -288,12 +288,17 @@ input, textarea {
     padding-right: 0;
 }
 
+.faq-items {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .faq-items:first-child {
     margin-top: 10px;
 }
  
 .faq-items h3 {
-    background: #e2e2e2;
+    background: #e8e7e7;
     padding: 12px;
     padding-left: 30px;
     font-size: 14px;
@@ -310,28 +315,31 @@ input, textarea {
     padding: 8px 0;
     font-size: 12px;
     border-bottom: 1.5px solid #9a2018;
+    
 }
 
 .faq-items li:last-child {
     border: 0;
 }   
 
-.fa-play {
+.faq-items img {
     float: left;
     color: #b8b8b8;
-    margin-top: 12px;
-    margin-left: 12px;
+    margin: 13px 5px 0 15px;
+    width: 12px;
+    cursor: pointer;
+    opacity: .4;
 }
 
-.faq-items {
-    margin-top: 20px;
-    margin-bottom: 20px;
+#rotate {
+    transform: rotate(90deg);
 }
 
 .faq-items a {
     color: inherit;
     font-size: 12px;
 }
+
 
 /* Rooms Page */
 
